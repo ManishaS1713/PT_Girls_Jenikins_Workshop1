@@ -9,15 +9,6 @@
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface
-        description="Bluetooth Device (Personal Area Network)"
-        enabled="false" isLoopBack="false" name="ethernet_32770">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:aed1:b5f6:2262:dcf3%ethernet_32770">
-            <ip value="fe80:0:0:0:aed1:b5f6:2262:dcf3%ethernet_32770"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface
         description="Microsoft Wi-Fi Direct Virtual Adapter"
         enabled="false" isLoopBack="false" name="wireless_32769">
         <!--****** LG ADDRESSES ******-->
@@ -26,11 +17,26 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="ethernet_32770">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:aed1:b5f6:2262:dcf3%ethernet_32770">
+            <ip value="fe80:0:0:0:aed1:b5f6:2262:dcf3%ethernet_32770"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
     <lg-networkiface description="Intel(R) Dual Band Wireless-AC 3168"
         enabled="false" isLoopBack="false" name="wireless_32768">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="desktop-uno14t4">
-            <ip value="192.168.1.117"/>
+            <ip value="192.168.1.11"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2401:4900:8f57:d01c:152d:8239:b866:3ce9">
+            <ip value="2401:4900:8f57:d01c:152d:8239:b866:3ce9"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2401:4900:8f57:d01c:dd5f:15bf:3774:cf41">
+            <ip value="2401:4900:8f57:d01c:dd5f:15bf:3774:cf41"/>
         </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:9e6e:1bc8:4ef5:3ea2%wireless_32768">
             <ip value="fe80:0:0:0:9e6e:1bc8:4ef5:3ea2%wireless_32768"/>

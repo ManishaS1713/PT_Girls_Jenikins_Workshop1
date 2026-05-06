@@ -10,9 +10,6 @@ Possible parameters are:&#xd;
 - ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_213b76e4-2a6a-4340-b449-f5e98b2b4acd</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_7f872b48-7174-40ac-b3ea-816ebe6453f3</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_7f872b48-7174-40ac-b3ea-816ebe6453f3</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_7f872b48-7174-40ac-b3ea-816ebe6453f3</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_7f872b48-7174-40ac-b3ea-816ebe6453f3.jpg</screenshotFileDescription>
     <embedded-action>87896e8c-af5b-4c68-81fc-aff328e4b58e</embedded-action>
 </browser-action>

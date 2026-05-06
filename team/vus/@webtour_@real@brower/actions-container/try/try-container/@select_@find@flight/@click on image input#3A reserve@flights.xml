@@ -28,9 +28,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 1]/td[(count(preceding-sibling::*)+1) = 1]/input[(count(preceding-sibling::*)+1) = 1]"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_3190d461-10fd-4335-a382-c4c47bb41b57</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_faee1c6d-4821-4e7f-b37a-d675d8e2d964</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_faee1c6d-4821-4e7f-b37a-d675d8e2d964</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_faee1c6d-4821-4e7f-b37a-d675d8e2d964</recordedResponseRawFileDescription>
     <assertions>
         <assertion-content name="assertion_1" notType="false" pattern="Submit"/>
     </assertions>

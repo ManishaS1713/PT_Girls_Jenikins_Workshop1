@@ -10,7 +10,4 @@ Possible parameters are:&#xd;
 - shouldClearProcesses (optional): This parameter is only applicable when the action is in the Actions container (ignored otherwise). Default is false, the internal processes are persisted in the Virtual user instance to be reused from one iteration to another. Setting the value to true will ensure all external processes are closed and recreated for each iteration, at the cost of increasing the response time and CPU consumption of this CloseBrowser and the next OpenBrowser actions. Default value is "false".</description>
     <custom-action-parameter name="ignoreErrors" type="TEXT" value="true"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_def1880c-777a-4769-9d5b-b3ed709d2e64</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_64a2e31b-8562-45a8-a397-bcaed048c45f</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_64a2e31b-8562-45a8-a397-bcaed048c45f</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_64a2e31b-8562-45a8-a397-bcaed048c45f</recordedResponseRawFileDescription>
 </browser-action>

@@ -7,7 +7,6 @@ Possible parameters are:&#xd;
 - waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
 - waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
 - waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
-- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
-</description>
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/"/>
 </browser-action>

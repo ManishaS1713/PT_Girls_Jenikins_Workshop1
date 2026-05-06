@@ -13,9 +13,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_553368ef-d336-4af8-a50e-e05550a8678d</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_8617b30a-4266-47b2-97f5-bab48c1949d7</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_8617b30a-4266-47b2-97f5-bab48c1949d7</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_8617b30a-4266-47b2-97f5-bab48c1949d7</recordedResponseRawFileDescription>
     <embedded-action>3e6362c6-8f95-4944-b772-3954f6d390e9</embedded-action>
     <embedded-action>662c6c7f-55b0-4bf9-9ffb-addcb1349953</embedded-action>
     <embedded-action>4f2bab39-3bd1-459d-a4f3-ad9a22fc190d</embedded-action>

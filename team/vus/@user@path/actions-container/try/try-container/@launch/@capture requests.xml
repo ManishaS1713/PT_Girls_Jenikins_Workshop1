@@ -9,8 +9,7 @@ Possible parameters are:&#xd;
 - regexp (optional): The regular expression to group the requests (the matching check is applied on the full request URL: scheme, host name, port number, path and URL parameters).  Default value is ".*".&#xd;
 - url (optional): The URL to group the requests (excluding query parameters). &#xd;
 - resourceType (optional): The resource type to group the requests (possible values are document, stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, ping, other). &#xd;
-- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".&#xd;
-</description>
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
     <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
     <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
 </browser-action>

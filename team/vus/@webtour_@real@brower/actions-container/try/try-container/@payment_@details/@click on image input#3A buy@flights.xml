@@ -28,9 +28,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//tr/td[(count(preceding-sibling::*)+1) = 1]/input[(count(preceding-sibling::*)+1) = 1]"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_71115c1a-663f-4a76-b3ed-3f7997b16228</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_2919bc97-8c53-49b4-9423-d0090e582444</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_2919bc97-8c53-49b4-9423-d0090e582444</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_2919bc97-8c53-49b4-9423-d0090e582444</recordedResponseRawFileDescription>
     <assertions>
         <assertion-content name="assertion_1" notType="false" pattern="buyFlights"/>
     </assertions>

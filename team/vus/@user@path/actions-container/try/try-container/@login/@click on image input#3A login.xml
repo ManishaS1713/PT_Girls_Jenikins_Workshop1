@@ -21,8 +21,7 @@ Possible parameters are:&#xd;
 - waitForDownload.path (optional): The path where to save the the downloaded file. Can include the filename, 
 	i.e : /home/my-downloads/my-downloaded-file.txt &#xd;
 - waitForDownload.timeout (optional): If applicable, the download must start within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Maximum value is 200000. If the timeout is set to 0, the download will be waited indefinitely.&#xd;
-- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
-</description>
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
     <custom-action-parameter name="selector" type="TEXT" value="internal:role=button[name=&quot;Login&quot;i]"/>
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//*[@type=&quot;image&quot;]"/>
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//*[@name=&quot;login&quot;]"/>

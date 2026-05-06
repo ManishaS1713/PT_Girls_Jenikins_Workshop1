@@ -12,8 +12,7 @@ If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
 
 To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
 Possible parameters are:&#xd;
-- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under. &#xd;
-</description>
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/"/>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/header.html"/>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/welcome.pl"/>

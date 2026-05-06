@@ -7,6 +7,5 @@ This action is useful for avoiding stacking browser instances on a single VU. Th
 
 Possible parameters are:&#xd;
 - ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
-- shouldClearProcesses (optional): This parameter is only applicable when the action is in the Actions container (ignored otherwise). Default is false, the internal processes are persisted in the Virtual user instance to be reused from one iteration to another. Setting the value to true will ensure all external processes are closed and recreated for each iteration, at the cost of increasing the response time and CPU consumption of this CloseBrowser and the next OpenBrowser actions. Default value is "false".&#xd;
-</description>
+- shouldClearProcesses (optional): This parameter is only applicable when the action is in the Actions container (ignored otherwise). Default is false, the internal processes are persisted in the Virtual user instance to be reused from one iteration to another. Setting the value to true will ensure all external processes are closed and recreated for each iteration, at the cost of increasing the response time and CPU consumption of this CloseBrowser and the next OpenBrowser actions. Default value is "false".</description>
 </browser-action>

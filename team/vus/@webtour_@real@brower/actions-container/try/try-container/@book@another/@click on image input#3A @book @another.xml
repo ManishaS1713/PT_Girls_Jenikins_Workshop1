@@ -28,9 +28,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//form/input[(count(preceding-sibling::*)+1) = 1]"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_2fc5359e-ff60-4e5d-9ccd-6a0face6bee9</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_5bebce4e-a67f-4656-842c-47dcf1fbc475</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_5bebce4e-a67f-4656-842c-47dcf1fbc475</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_5bebce4e-a67f-4656-842c-47dcf1fbc475</recordedResponseRawFileDescription>
     <assertions>
         <assertion-content name="assertion_1" notType="false" pattern="Book Another"/>
     </assertions>

@@ -27,8 +27,5 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//tr/td[(count(preceding-sibling::*)+1) = 4]/input[(count(preceding-sibling::*)+1) = 1]"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_ca437ecd-515a-480a-96f9-93c2dc66bc4f</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_36600c1c-67ac-45f4-9ec3-38c55ea30852</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_36600c1c-67ac-45f4-9ec3-38c55ea30852</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_36600c1c-67ac-45f4-9ec3-38c55ea30852</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_36600c1c-67ac-45f4-9ec3-38c55ea30852.0.jpg</screenshotFileDescription>
 </browser-action>

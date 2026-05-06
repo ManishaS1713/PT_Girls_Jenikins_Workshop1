@@ -32,7 +32,4 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="timezone" type="TEXT" value="Asia/Calcutta"/>
     <custom-action-parameter name="userAgent" type="TEXT" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_70da523e-de44-4771-b889-2cd86e85139f</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_9208b2fc-945c-48ff-a4b6-3929abd671b3</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_9208b2fc-945c-48ff-a4b6-3929abd671b3</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_9208b2fc-945c-48ff-a4b6-3929abd671b3</recordedResponseRawFileDescription>
 </browser-action>

@@ -21,9 +21,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/login.pl"/>
     <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/reservations.pl"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_268125e4-351e-444c-914f-ed8f8dcffcd0</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_e26fc285-f044-468f-aed1-62c79dab14b0</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_e26fc285-f044-468f-aed1-62c79dab14b0</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_e26fc285-f044-468f-aed1-62c79dab14b0</recordedResponseRawFileDescription>
     <embedded-action>81751e92-c1b5-4b74-9b40-2ef8c40c6148</embedded-action>
     <embedded-action>8542b69d-6b0c-44f9-809b-8b375a45be46</embedded-action>
     <embedded-action>f36b1356-91f5-402a-9dd7-640688c76a66</embedded-action>

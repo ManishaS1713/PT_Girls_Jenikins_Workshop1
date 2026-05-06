@@ -27,8 +27,5 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="text" type="TEXT" value="2323"/>
     <custom-action-parameter name="delay" type="TEXT" value="100"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_4adbdbb9-e05b-4e83-bd85-b544231574f3</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_0ffb1d4f-3476-4395-bb05-d62d4ea659d7</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_0ffb1d4f-3476-4395-bb05-d62d4ea659d7</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_0ffb1d4f-3476-4395-bb05-d62d4ea659d7</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_0ffb1d4f-3476-4395-bb05-d62d4ea659d7.0.jpg</screenshotFileDescription>
 </browser-action>

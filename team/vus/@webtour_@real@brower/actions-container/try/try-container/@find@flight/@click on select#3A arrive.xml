@@ -27,9 +27,6 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="selector" type="TEXT" value="xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 2]/td[(count(preceding-sibling::*)+1) = 2]/select[(count(preceding-sibling::*)+1) = 1]"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_16746e64-9435-4896-b03e-8fe8326f5d8e</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_a568d3a2-289e-488b-8e30-e0ef62c6a571</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_a568d3a2-289e-488b-8e30-e0ef62c6a571</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_a568d3a2-289e-488b-8e30-e0ef62c6a571</recordedResponseRawFileDescription>
     <assertions>
         <assertion-content name="assertion_1" notType="false" pattern="arrive"/>
     </assertions>

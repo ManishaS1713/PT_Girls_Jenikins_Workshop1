@@ -28,8 +28,5 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="text" type="TEXT" value="${WebTour_Data.UserName}"/>
     <custom-action-parameter name="delay" type="TEXT" value="1200"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_87d00f47-cd1b-4297-9bf6-bf3157b4294b</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_3ad67401-3c38-4a7d-b50e-353232bb5a2b</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_3ad67401-3c38-4a7d-b50e-353232bb5a2b</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_3ad67401-3c38-4a7d-b50e-353232bb5a2b</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_3ad67401-3c38-4a7d-b50e-353232bb5a2b.0.jpg</screenshotFileDescription>
 </browser-action>

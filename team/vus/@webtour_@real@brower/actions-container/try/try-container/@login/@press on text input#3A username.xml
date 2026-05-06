@@ -27,8 +27,5 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="frameIndex" type="TEXT" value="3"/>
     <custom-action-parameter name="key" type="TEXT" value="Tab"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_1ab390f1-db3e-4771-9110-0aade7276527</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_55c95675-5beb-4156-8976-a7885214db78</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_55c95675-5beb-4156-8976-a7885214db78</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_55c95675-5beb-4156-8976-a7885214db78</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_55c95675-5beb-4156-8976-a7885214db78.0.jpg</screenshotFileDescription>
 </browser-action>

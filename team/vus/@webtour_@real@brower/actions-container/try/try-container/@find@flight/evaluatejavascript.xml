@@ -15,8 +15,7 @@ Possible parameters are:&#xd;
 - waitForDownload.path (optional): The path where to save the the downloaded file. Can include the filename, 
 	i.e : /home/my-downloads/my-downloaded-file.txt &#xd;
 - waitForDownload.timeout (optional): If applicable, the download must start within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Maximum value is 200000. If the timeout is set to 0, the download will be waited indefinitely.&#xd;
-- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
-</description>
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
     <custom-action-parameter name="script" type="TEXT" value="var dropdown = document.querySelector('select[name=&quot;arrive&quot;]'); var options = dropdown.options; var validOptions = [];  for (var i = 1; i &lt; options.length; i++) {     var city = options[i].text.trim();      if (city !== &quot;&quot;) {         validOptions.push(i);     } }  var randomPosition = Math.floor(Math.random() * validOptions.length); var selectedIndex = validOptions[randomPosition];  dropdown.selectedIndex = selectedIndex;  dropdown.dispatchEvent(     new Event('change', { bubbles: true }) );  // Print selected text console.log(&quot;Selected City Text: &quot; + dropdown.options[selectedIndex].text);  // Print selected value console.log(&quot;Selected City Value: &quot; + dropdown.options[selectedIndex].value);"/>
     <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
 </browser-action>

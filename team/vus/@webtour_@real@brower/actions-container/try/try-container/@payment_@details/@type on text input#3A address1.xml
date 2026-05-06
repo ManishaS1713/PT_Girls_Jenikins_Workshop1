@@ -27,8 +27,5 @@ Possible parameters are:&#xd;
     <custom-action-parameter name="text" type="TEXT" value="JojokaGhar"/>
     <custom-action-parameter name="delay" type="TEXT" value="600"/>
     <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_6ec7ece4-b5d4-4638-860d-af6eb6f13ed8</responsePageFileDescription>
-    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_dbca2fce-6332-4f28-bebe-4db7bd688a84</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_dbca2fce-6332-4f28-bebe-4db7bd688a84</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_dbca2fce-6332-4f28-bebe-4db7bd688a84</recordedResponseRawFileDescription>
     <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_dbca2fce-6332-4f28-bebe-4db7bd688a84.0.jpg</screenshotFileDescription>
 </browser-action>

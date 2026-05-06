@@ -25,8 +25,7 @@ Possible parameters are:&#xd;
 - httpCredentials.password (optional): Password for HTTP authentication. 'httpCredentials.origin' parameter is required to restrict sending credentials to specific hosts.&#xd;
 - httpCredentials.origin (optional): Origin to which credentials for HTTP authentication will be sent. Ex: 'https://tricentis.com'.&#xd;
 - ignoreScreenshots (optional): Disable all screenshots during Check VU or Debug. Default value is "false".&#xd;
-- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
-</description>
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
     <custom-action-parameter name="browser" type="TEXT" value="chromium"/>
     <custom-action-parameter name="resolution" type="TEXT" value="1368x768"/>
     <custom-action-parameter name="locale" type="TEXT" value="en-US"/>
