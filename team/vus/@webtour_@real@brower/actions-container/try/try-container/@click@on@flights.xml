@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ClickOnFlights" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="df5772e1-3a86-44fc-b305-b3a14efc6884" weightsEnabled="false">
+    <weighted-embedded-action uid="9ddaf7ed-31b9-47d1-b56f-78fd31c301f5"/>
+    <weighted-embedded-action uid="9df031b3-a548-4892-ac05-2814d76ac66d"/>
+    <weighted-embedded-action uid="d0ad4e06-75b4-4c67-846a-bfc695602e9a"/>
+</basic-logical-action-container>

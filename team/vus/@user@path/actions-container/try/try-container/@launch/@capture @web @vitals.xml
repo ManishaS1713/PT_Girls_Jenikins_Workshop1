@@ -1,0 +1,24 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="817ca188-e839-4ff6-adb8-38f4ddfc5705">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under. &#xd;
+</description>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/header.html"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/welcome.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/WebTours/home.html"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/nav.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/login.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/reservations.pl"/>
+</browser-action>

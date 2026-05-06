@@ -1,0 +1,3 @@
+<team-server-settings hostAddress="github.com" port="443"
+    protocol="git_https" repository="/geetamistry27/Neoload_Collab.git"
+    resourcesFolderName="%resources%" thirdParty="true" tunnel=""/>

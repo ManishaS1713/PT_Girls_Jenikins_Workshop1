@@ -1,0 +1,4 @@
+﻿selector : input[name="numPassengers"]
+selector : xpath=//*[@name="numPassengers"]
+selector : xpath=//tr/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

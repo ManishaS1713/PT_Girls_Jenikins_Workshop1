@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [select[name="arrive"], xpath=//*[@name="arrive"], xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 2]/td[(count(preceding-sibling::*)+1) = 2]/select[(count(preceding-sibling::*)+1) = 1]]

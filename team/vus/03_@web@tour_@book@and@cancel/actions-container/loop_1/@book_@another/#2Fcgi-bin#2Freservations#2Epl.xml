@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/reservations.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/9ad96ac6-14fd-4c10-b25c-9c1ce97ac09f.zip"
+    slaProfileEnabled="false" thinkTime="1192"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9ad96ac6-14fd-4c10-b25c-9c1ce97ac09f">
+    <embedded-action>4badd09f-0974-4c88-baef-64f6d315221a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9ad96ac6-14fd-4c10-b25c-9c1ce97ac09f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/reservations.pl"
+    path="/cgi-bin/reservations.pl" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/9ad96ac6-14fd-4c10-b25c-9c1ce97ac09f.zip"
+    recordedResponseCode="200" responseSize="4246" serverUid="localhost"
+    slaProfileEnabled="false" uid="4badd09f-0974-4c88-baef-64f6d315221a" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Qm9vaytBbm90aGVyLng9NDEmQm9vaytBbm90aGVyLnk9OQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_4badd09f-0974-4c88-baef-64f6d315221a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4badd09f-0974-4c88-baef-64f6d315221a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="Book Another.x" recordRawValue="41" separator="="
+        value="41" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="Book Another.y" recordRawValue="9" separator="=" value="9" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1776272566; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/reservations.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 17:05:45 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 17:05:46 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

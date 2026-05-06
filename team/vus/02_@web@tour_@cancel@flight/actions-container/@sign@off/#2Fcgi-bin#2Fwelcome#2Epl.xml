@@ -1,0 +1,180 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/welcome.pl"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/9c90270e-0865-475a-a407-3cbebb84c16d.zip"
+    slaProfileEnabled="false" thinkTime="10242"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9c90270e-0865-475a-a407-3cbebb84c16d">
+    <embedded-action>9d02c8f4-7f4c-4cd4-bae2-6bd505c451e1</embedded-action>
+    <embedded-action>78a9cc51-8c64-4014-9554-915aed5ec6bc</embedded-action>
+    <embedded-action>7c08de17-2648-4cfb-a887-7851c5269e10</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cgi-bin/welcome.pl" path="/cgi-bin/welcome.pl"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/9c90270e-0865-475a-a407-3cbebb84c16d.zip"
+    recordedResponseCode="200" responseSize="686" serverUid="localhost"
+    slaProfileEnabled="false" uid="9d02c8f4-7f4c-4cd4-bae2-6bd505c451e1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c9edf1e9-79bc-4cf7-8218-04bd9dd4d148.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c9edf1e9-79bc-4cf7-8218-04bd9dd4d148.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="signOff"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252246; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=home"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:26:10 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Set-Cookie: MSO=SID&amp;1776252370; path=/&#xd;
+Set-Cookie: MTUserInfo=; path=/; expires=Tue, 14-Apr-2026 11:26:10 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/nav.pl"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="0" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="78a9cc51-8c64-4014-9554-915aed5ec6bc">
+    <embedded-action>e69b56c2-4d94-47e1-9fec-10ee98a7278b</embedded-action>
+    <embedded-action>1febdec7-f303-44b1-9562-2bfe3b17f2d5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8d22dbc4-612f-4ce4-aee2-031049cba41c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cgi-bin/nav.pl" path="/cgi-bin/nav.pl"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/9c90270e-0865-475a-a407-3cbebb84c16d.zip"
+    recordedResponseCode="200" responseSize="1489" serverUid="localhost"
+    slaProfileEnabled="false" uid="e69b56c2-4d94-47e1-9fec-10ee98a7278b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b9a5d464-9846-434b-ab7c-a3508c3d6374.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b9a5d464-9846-434b-ab7c-a3508c3d6374.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="in"
+        recordRawValue="home" separator="=" value="home" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252370"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/welcome.pl?signOff=1"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:26:10 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 11:26:10 GMT&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;380000000b7958-2a7-4b654c052c2c0&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 12 Jan 2012 13:30:27 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/mer_login.gif"
+    path="/WebTours/images/mer_login.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/9c90270e-0865-475a-a407-3cbebb84c16d.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="localhost"
+    slaProfileEnabled="false" uid="1febdec7-f303-44b1-9562-2bfe3b17f2d5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1febdec7-f303-44b1-9562-2bfe3b17f2d5.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7d0f771f-634b-4708-b0d6-4f8171d5416b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252370"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/nav.pl?in=home"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:26:10 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "380000000b7958-2a7-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 679&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/WebTours/home.html"
+    playRequestsSequentially="false" slaProfileEnabled="false"
+    thinkTime="0" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="7c08de17-2648-4cfb-a887-7851c5269e10">
+    <embedded-action>260c6dad-60c6-4299-b9c7-76f93b7c5f3c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;2200000009db6a-551-4ddb1559ac980&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/home.html" path="/WebTours/home.html"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/9c90270e-0865-475a-a407-3cbebb84c16d.zip"
+    recordedResponseCode="200" responseSize="1361" serverUid="localhost"
+    slaProfileEnabled="false" uid="260c6dad-60c6-4299-b9c7-76f93b7c5f3c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2be4a280-2c74-4886-91ad-aa0069d2f86f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2be4a280-2c74-4886-91ad-aa0069d2f86f.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252370"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/welcome.pl?signOff=1"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:26:10 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Mon, 27 May 2013 11:20:22 GMT&#xd;
+ETag: "2200000009db6a-551-4ddb1559ac980"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1361&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

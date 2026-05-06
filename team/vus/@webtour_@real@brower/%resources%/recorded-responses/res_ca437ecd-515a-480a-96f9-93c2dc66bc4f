@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [input[name="expDate"], xpath=//*[@name="expDate"], xpath=//tr/td[(count(preceding-sibling::*)+1) = 4]/input[(count(preceding-sibling::*)+1) = 1]]

@@ -1,0 +1,98 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/reservations.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/53e774c7-8406-48f3-9c2a-88615027b10b.zip"
+    slaProfileEnabled="false" thinkTime="48838"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="53e774c7-8406-48f3-9c2a-88615027b10b">
+    <embedded-action>c6f534dc-ad2c-4800-8de9-65f3f87145dd</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_53e774c7-8406-48f3-9c2a-88615027b10b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/reservations.pl"
+    path="/cgi-bin/reservations.pl" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/53e774c7-8406-48f3-9c2a-88615027b10b.zip"
+    recordedResponseCode="200"
+    refererUid="b58bfed4-a7d2-46a7-9fd2-3e3c923900b4"
+    responseSize="2481" serverUid="localhost" slaProfileEnabled="false"
+    uid="c6f534dc-ad2c-4800-8de9-65f3f87145dd" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Zmlyc3ROYW1lPUpvam8mbGFzdE5hbWU9QmVhbiZhZGRyZXNzMT1qb2pvK2thK2doYXImYWRkcmVzczI9OTU2NDU0NjU0NTU0NSZwYXNzMT1Kb2pvK0JlYW4mY3JlZGl0Q2FyZD0xMTExMTExMTExJmV4cERhdGU9MDElMkY5MCZvbGRDQ09wdGlvbj0mbnVtUGFzc2VuZ2Vycz0xJnNlYXRUeXBlPUNvYWNoJnNlYXRQcmVmPU5vbmUmb3V0Ym91bmRGbGlnaHQ9MjMxJTNCNjg4JTNCMDQlMkYxNiUyRjIwMjYmYWR2YW5jZURpc2NvdW50PTAmcmV0dXJuRmxpZ2h0PSZKU0Zvcm1TdWJtaXQ9b2ZmJmJ1eUZsaWdodHMueD02MSZidXlGbGlnaHRzLnk9MTAmLmNnaWZpZWxkcz1zYXZlQ0M=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_c6f534dc-ad2c-4800-8de9-65f3f87145dd.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c6f534dc-ad2c-4800-8de9-65f3f87145dd.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="firstName"
+        recordRawValue="Jojo" separator="="
+        value="${WebTour_Data.FirstName}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lastName"
+        recordRawValue="Bean" separator="="
+        value="${WebTour_Data.LastName}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address1"
+        recordRawValue="jojo+ka+ghar" separator="=" value="JojoKaGhar" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address2"
+        recordRawValue="9564546545545" separator="="
+        value="${WebTour_Data.City/State/Zip}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pass1"
+        recordRawValue="Jojo+Bean" separator="="
+        value="${WebTour_Data.FirstName} ${WebTour_Data.LastName}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="creditCard"
+        recordRawValue="1111111111" separator="="
+        value="${WebTour_Data.CreditCard}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="expDate"
+        recordRawValue="01%2F90" separator="="
+        value="${WebTour_Data.ExpDate}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="oldCCOption"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="numPassengers"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatType"
+        recordRawValue="Coach" separator="=" value="Coach" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatPref"
+        recordRawValue="None" separator="=" value="None" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="outboundFlight"
+        recordRawValue="231%3B688%3B04%2F16%2F2026" separator="="
+        value="${c_OutBound}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="advanceDiscount" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnFlight"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="JSFormSubmit"
+        recordRawValue="off" separator="=" value="off" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="buyFlights.x"
+        recordRawValue="61" separator="=" value="61" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="buyFlights.y"
+        recordRawValue="10" separator="=" value="10" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="saveCC" separator="=" value="saveCC" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1776246040; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/reservations.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 09:42:21 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 09:42:21 GMT&#xd;
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A; path=/&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>

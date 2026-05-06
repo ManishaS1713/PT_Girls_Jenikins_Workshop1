@@ -1,0 +1,13 @@
+<variable-file delimiters="," filename="D:/Neoload Scripts/WebTour_Data.csv" name="WebTour_Data" offset="1" order="1" policy="5" range="1" uid="efe6e6bc-2366-4292-bf7f-d80b83e5891c" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="City/State/Zip" number="6"/>
+<column name="ConfirmPassword" number="2"/>
+<column name="CreditCard" number="9"/>
+<column name="DepartureDate" number="7"/>
+<column name="ExpDate" number="10"/>
+<column name="FirstName" number="3"/>
+<column name="LastName" number="4"/>
+<column name="Password" number="1"/>
+<column name="ReturnDate" number="8"/>
+<column name="Street Address" number="5"/>
+<column name="UserName" number="0"/>
+</variable-file>

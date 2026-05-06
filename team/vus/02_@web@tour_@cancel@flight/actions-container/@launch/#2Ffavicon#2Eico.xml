@@ -1,0 +1,41 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/55b40f91-8af5-4d65-87f7-b0ccadfd89f1.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="55b40f91-8af5-4d65-87f7-b0ccadfd89f1">
+    <embedded-action>082f77a1-5c1f-4661-b798-29e430298fb3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_883e0ea8-9787-48d3-a734-0dd75db0197b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/55b40f91-8af5-4d65-87f7-b0ccadfd89f1.zip"
+    recordedResponseCode="404" responseSize="209" serverUid="localhost"
+    slaProfileEnabled="false" uid="082f77a1-5c1f-4661-b798-29e430298fb3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c85a3d21-a16d-49e1-8210-e22c3a8652c6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c85a3d21-a16d-49e1-8210-e22c3a8652c6.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=6"/>
+    <header name="Referer" value="http://localhost:1080/webtours/"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+Date: Wed, 15 Apr 2026 11:24:05 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Content-Length: 209&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html; charset=iso-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

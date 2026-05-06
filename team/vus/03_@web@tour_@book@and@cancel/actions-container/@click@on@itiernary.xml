@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ClickOnItiernary" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="4c411d78-9da7-484f-bd47-904d39ce07ce" weightsEnabled="false">
+    <weighted-embedded-action uid="ca0e8aae-bad7-4857-b624-6f5fb3c39ae8"/>
+</basic-logical-action-container>

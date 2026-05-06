@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [internal:role=link[name="Search Flights Button"i], xpath=//center/a[(count(preceding-sibling::*)+1) = 1]/img[(count(preceding-sibling::*)+1) = 1]]

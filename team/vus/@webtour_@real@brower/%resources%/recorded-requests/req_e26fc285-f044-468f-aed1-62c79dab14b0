@@ -1,0 +1,7 @@
+﻿url : http://127.0.0.1:1080/webtours/
+url : http://127.0.0.1:1080/webtours/header.html
+url : http://127.0.0.1:1080/cgi-bin/welcome.pl
+url : http://127.0.0.1:1080/WebTours/home.html
+url : http://127.0.0.1:1080/cgi-bin/nav.pl
+url : http://127.0.0.1:1080/cgi-bin/login.pl
+url : http://127.0.0.1:1080/cgi-bin/reservations.pl

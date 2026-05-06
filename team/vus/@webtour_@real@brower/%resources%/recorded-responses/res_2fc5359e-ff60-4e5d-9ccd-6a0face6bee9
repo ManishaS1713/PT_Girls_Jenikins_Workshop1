@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [internal:role=button[name="Submit"i], xpath=//*[@type="image"], xpath=//*[@name="Book Another"], xpath=//form/input[(count(preceding-sibling::*)+1) = 1]]

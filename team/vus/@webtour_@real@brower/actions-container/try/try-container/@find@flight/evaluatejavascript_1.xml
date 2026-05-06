@@ -1,0 +1,22 @@
+<browser-action actionType="BrowserEvaluateJavascript" enabled="false"
+    isHit="false" name="evaluatejavascript_1" uid="fbfb6ef5-a396-467a-acef-69eb1f3fea7f">
+    <description>Executes some arbitrary Javascript code in the current page context
+
+Possible parameters are:&#xd;
+- script (required): A javascript function or expression to execute&#xd;
+- variableName (optional): The name of the variable where the evaluation result will be stored.&#xd;
+- frameIndex (optional): Frame index.&#xd;
+- frameName (optional): Frame name.&#xd;
+- frameSelector (optional): Frame selector.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForDownload (optional): Enable waiting for a download if the parameter is set to true.  Default value is "false".&#xd;
+- waitForDownload.path (optional): The path where to save the the downloaded file. Can include the filename, 
+	i.e : /home/my-downloads/my-downloaded-file.txt &#xd;
+- waitForDownload.timeout (optional): If applicable, the download must start within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Maximum value is 200000. If the timeout is set to 0, the download will be waited indefinitely.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".&#xd;
+</description>
+    <custom-action-parameter name="script" type="TEXT" value="function () {     var dropdown = document.querySelector('select[name=&quot;arrive&quot;]');     var options = dropdown.options;     var validOptions = [];      for (var i = 1; i &lt; options.length; i++) {         var city = options[i].text.trim();          if (city !== &quot;&quot;) {             validOptions.push(i);         }     }      var randomPosition = Math.floor(Math.random() * validOptions.length);     var selectedIndex = validOptions[randomPosition];      dropdown.selectedIndex = selectedIndex;      dropdown.dispatchEvent(         new Event('change', { bubbles: true })     );      console.log(         &quot;Selected City: &quot; + dropdown.options[selectedIndex].text     ); }"/>
+    <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
+</browser-action>

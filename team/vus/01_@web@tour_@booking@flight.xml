@@ -1,0 +1,31 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="01_WebTour_BookingFlight">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="5"
+        pacingMode="MODE_PACING_RANGE" pacingStart="1"
+        pacingValue="5000" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="5f86e0b1-1893-46fc-9962-385df3b7e864"/>
+        <weighted-embedded-action uid="1f4dea54-b42a-400a-ae00-ea16a85675c1"/>
+        <weighted-embedded-action uid="5daac87f-7d9b-4657-9b62-79d46a92c4e8"/>
+        <weighted-embedded-action uid="89936765-4906-4010-8edc-84b64d009f74"/>
+        <weighted-embedded-action uid="7ff96238-fd60-457a-b18c-ecf8becf5425"/>
+        <weighted-embedded-action uid="6f11c19f-4b46-47fe-ad3c-171a41c8fbb1"/>
+        <weighted-embedded-action uid="b9daa974-eb77-4245-a605-d5a956a71978"/>
+        <weighted-embedded-action uid="b9629874-7586-4421-b577-2d8467ed33a1"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

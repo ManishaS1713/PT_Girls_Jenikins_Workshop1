@@ -1,0 +1,20 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Payment_Details" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f03b8dab-7cc7-4995-86e8-06a473feb00f" weightsEnabled="false">
+    <weighted-embedded-action uid="394c12d3-bb3b-429a-b57f-05222a500db1"/>
+    <weighted-embedded-action uid="f17d3d97-9a86-4ce1-af4c-b52e4c6ef8eb"/>
+    <weighted-embedded-action uid="dea241db-86d5-4f58-afed-92a156bacc74"/>
+    <weighted-embedded-action uid="98e1c65c-4efa-43ad-87e8-ff4f7481bb4a"/>
+    <weighted-embedded-action uid="3f3dceaf-af4c-4bf4-9bfb-f620e487ca38"/>
+    <weighted-embedded-action uid="34fcec80-89dd-4d74-9788-2afc892bef7f"/>
+    <weighted-embedded-action uid="8fea9df5-d6b6-4a57-ab2e-52ffcbc2a8f5"/>
+    <weighted-embedded-action uid="24f7a017-bd4e-47da-9bd3-9649c91703d3"/>
+    <weighted-embedded-action uid="b4ff43ec-a596-4418-ae9d-fe2efdf73f2a"/>
+    <weighted-embedded-action uid="4ad574ee-89d7-41d2-bd12-b74f0213d839"/>
+    <weighted-embedded-action uid="73f8277a-f6ac-4402-b09d-4995bd60fb11"/>
+    <weighted-embedded-action uid="5e562eea-a2ac-482f-9787-870832f0be96"/>
+    <weighted-embedded-action uid="0d92ff9a-ba3a-4c5c-9363-28c4a923e009"/>
+    <weighted-embedded-action uid="e518c39c-ff47-44e2-9fcd-9fec0e44acaf"/>
+    <weighted-embedded-action uid="ae70a7e8-b495-48e8-b45c-58ef5a4dd39f"/>
+</basic-logical-action-container>

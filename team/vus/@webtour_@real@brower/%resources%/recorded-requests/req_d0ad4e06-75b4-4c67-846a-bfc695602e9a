@@ -1,0 +1,3 @@
+﻿selector : internal:role=link[name="Search Flights Button"i]
+selector : xpath=//center/a[(count(preceding-sibling::*)+1) = 1]/img[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 3

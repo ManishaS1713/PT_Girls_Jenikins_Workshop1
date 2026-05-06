@@ -1,0 +1,150 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/itinerary.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/fb80cd75-5d61-47ed-a7a8-36f61f5b1084.zip"
+    slaProfileEnabled="false" thinkTime="1208"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb80cd75-5d61-47ed-a7a8-36f61f5b1084">
+    <embedded-action>7cd5abbd-98de-4a9b-8992-852e48b70006</embedded-action>
+    <embedded-action>11c0de1f-51d5-4225-b7be-83d4cefdb8c3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c2cf3487-29a8-4bd2-9bc4-2158155c4b39.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/itinerary.pl"
+    path="/cgi-bin/itinerary.pl" postCharset="iso-8859-1" postType="4"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/fb80cd75-5d61-47ed-a7a8-36f61f5b1084.zip"
+    recordedResponseCode="200" responseSize="3774" serverUid="localhost"
+    slaProfileEnabled="false" uid="7cd5abbd-98de-4a9b-8992-852e48b70006" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[MT1vbiZmbGlnaHRJRD04NjcyOTI3My03OTgtT1AmMj1vbiZmbGlnaHRJRD04NjcxNDA3OTQtMTU0OTUtT1AmZmxpZ2h0SUQ9ODY3MzUyMTUtMjM2OS1PUCZmbGlnaHRJRD04MjMwODkwNS0zMTEwLUpCJnJlbW92ZUZsaWdodHMueD02NCZyZW1vdmVGbGlnaHRzLnk9OCYuY2dpZmllbGRzPTQmLmNnaWZpZWxkcz0xJi5jZ2lmaWVsZHM9MyYuY2dpZmllbGRzPTI=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_914ed2c7-0e92-4ce8-b433-d66cebba7bcd.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_914ed2c7-0e92-4ce8-b433-d66cebba7bcd.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="1"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="86729273-798-OP" separator="="
+        value="86729273-798-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="2"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="867140794-15495-OP" separator="="
+        value="867140794-15495-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="86735215-2369-OP" separator="="
+        value="86735215-2369-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="82308905-3110-JB" separator="="
+        value="82308905-3110-JB" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeFlights.x" recordRawValue="64" separator="="
+        value="64" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeFlights.y" recordRawValue="8" separator="="
+        value="8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776272566; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/itinerary.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 17:07:35 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 17:07:35 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[${bodytext}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/itinerary.pl"
+    path="/cgi-bin/itinerary.pl" postCharset="iso-8859-1" postType="4"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/fb80cd75-5d61-47ed-a7a8-36f61f5b1084.zip"
+    recordedResponseCode="200" responseSize="3774" serverUid="localhost"
+    slaProfileEnabled="false" uid="11c0de1f-51d5-4225-b7be-83d4cefdb8c3" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[MT1vbiZmbGlnaHRJRD04NjcyOTI3My03OTgtT1AmMj1vbiZmbGlnaHRJRD04NjcxNDA3OTQtMTU0OTUtT1AmZmxpZ2h0SUQ9ODY3MzUyMTUtMjM2OS1PUCZmbGlnaHRJRD04MjMwODkwNS0zMTEwLUpCJnJlbW92ZUZsaWdodHMueD02NCZyZW1vdmVGbGlnaHRzLnk9OCYuY2dpZmllbGRzPTQmLmNnaWZpZWxkcz0xJi5jZ2lmaWVsZHM9MyYuY2dpZmllbGRzPTI=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_11c0de1f-51d5-4225-b7be-83d4cefdb8c3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_11c0de1f-51d5-4225-b7be-83d4cefdb8c3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="1"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="86729273-798-OP" separator="="
+        value="86729273-798-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="2"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="867140794-15495-OP" separator="="
+        value="867140794-15495-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="86735215-2369-OP" separator="="
+        value="86735215-2369-OP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="82308905-3110-JB" separator="="
+        value="82308905-3110-JB" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeFlights.x" recordRawValue="64" separator="="
+        value="64" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeFlights.y" recordRawValue="8" separator="="
+        value="8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776272566; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/itinerary.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 17:07:35 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 17:07:35 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[1=on&flightID=86729273-798-OP&2=on&flightID=867140794-15495-OP&flightID=86735215-2369-OP&flightID=82308905-3110-JB&removeFlights.x=64&removeFlights.y=8&.cgifields=4&.cgifields=1&.cgifields=3&.cgifields=2]]></textPostContent>
+</http-action>

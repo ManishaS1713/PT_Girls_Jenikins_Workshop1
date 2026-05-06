@@ -1,0 +1,38 @@
+<browser-action actionType="BrowserOpen" isHit="false"
+    name="Open browser" uid="9208b2fc-945c-48ff-a4b6-3929abd671b3">
+    <description>Open a new browser.
+
+Possible parameters are:&#xd;
+- browser (required): Browser type, possible values are: [chromium, firefox, webkit] Default value is "chromium".&#xd;
+- headless (optional): Whether to run browser in headless mode.&#xd;
+- defaultTimeout (optional): Sets the default timeout for every action in ms. Default value is 30000, maximum value is 200000.&#xd;
+- defaultNavigationTimeout (optional): Sets the default timeout for every navigation in ms. Default value is 20000, maximum value is 200000.&#xd;
+- resolution (optional): Resolution (width x height) of browser. Example: 1920x1080&#xd;
+- locale (optional): Locale of the browser. Example: en-GB&#xd;
+- timezone (optional): Timezone of the context&#xd;
+- blockRoute (optional): Block all resources related to the given route. Example: 
+	`https:\/\/neoload-api\.saas\.neotys\.com\/v3\/.*` to block all v3 api requests from https://neoload-api.saas.neotys.com/v3. 
+	`.*\.(png|jpg|jpeg)` to block all images resources. Note: images embedded in html (SVG, base64 etc...) won't be blocked&#xd;
+- userAgent (optional): User agent of the browser&#xd;
+- header (optional): Adds the specified header to each requests sent by the browser. You can add as many "header" parameter as you need. This parameter expected format is "(HeaderHost) HeaderName=HeaderValue" or "HeaderName=HeaderValue". If HeaderHost is empty, header will affect every requests. Otherwise, header will only affect requests addressed to this host&#xd;
+- ignoreSSLCertificateErrors (optional): Ignore SSL certificate errors (expired, untrusted, wrong host certificate, etc.). It is not recommended for security matters. Default value is "false".&#xd;
+- bypassCsp (optional): Set this parameter to "true" to bypass all content security policies in the browser context. Default value is "false".&#xd;
+- geolocation (optional): Overrides the detected geolocation in the browser. Expected format is "latitude;longitude;accuracy". Values should be in decimal format.&#xd;
+- permissions (optional): Adds the specified permissions in the current browser context. The expected value is a comma-separated list of permissions. Example "geolocation, notifications, camera, microphone"&#xd;
+- channel (optional): Browser distribution channel, possible values are: chrome, chrome-beta, chrome-dev, chrome-canary, msedge, msedge-beta, msedge-dev, msedge-canary, chromium&#xd;
+- executablePath (optional): Path to a browser executable to run instead of the bundled one. Note that Playwright only works with the bundled Chromium, Firefox or WebKit, use at your own risk.&#xd;
+- httpCredentials.login (optional): Login for HTTP authentication. 'httpCredentials.origin' parameter is required to restrict sending credentials to specific hosts.&#xd;
+- httpCredentials.password (optional): Password for HTTP authentication. 'httpCredentials.origin' parameter is required to restrict sending credentials to specific hosts.&#xd;
+- httpCredentials.origin (optional): Origin to which credentials for HTTP authentication will be sent. Ex: 'https://tricentis.com'.&#xd;
+- ignoreScreenshots (optional): Disable all screenshots during Check VU or Debug. Default value is "false".&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="browser" type="TEXT" value="chromium"/>
+    <custom-action-parameter name="resolution" type="TEXT" value="1386x788"/>
+    <custom-action-parameter name="locale" type="TEXT" value="en-US"/>
+    <custom-action-parameter name="timezone" type="TEXT" value="Asia/Calcutta"/>
+    <custom-action-parameter name="userAgent" type="TEXT" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"/>
+    <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_70da523e-de44-4771-b889-2cd86e85139f</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_9208b2fc-945c-48ff-a4b6-3929abd671b3</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_9208b2fc-945c-48ff-a4b6-3929abd671b3</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_9208b2fc-945c-48ff-a4b6-3929abd671b3</recordedResponseRawFileDescription>
+</browser-action>

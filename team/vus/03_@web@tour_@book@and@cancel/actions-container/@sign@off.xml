@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SignOff" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="def291e6-aec7-49e4-abc4-a9b6531d8d3b" weightsEnabled="false">
+    <weighted-embedded-action uid="d8441963-df70-474a-95a0-148036465216"/>
+</basic-logical-action-container>

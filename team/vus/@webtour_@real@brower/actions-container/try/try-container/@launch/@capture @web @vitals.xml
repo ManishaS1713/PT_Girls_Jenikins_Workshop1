@@ -1,0 +1,97 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="e26fc285-f044-468f-aed1-62c79dab14b0">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/webtours/header.html"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/welcome.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/WebTours/home.html"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/nav.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/login.pl"/>
+    <custom-action-parameter name="url" type="TEXT" value="http://127.0.0.1:1080/cgi-bin/reservations.pl"/>
+    <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_268125e4-351e-444c-914f-ed8f8dcffcd0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_e26fc285-f044-468f-aed1-62c79dab14b0</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_e26fc285-f044-468f-aed1-62c79dab14b0</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_e26fc285-f044-468f-aed1-62c79dab14b0</recordedResponseRawFileDescription>
+    <embedded-action>81751e92-c1b5-4b74-9b40-2ef8c40c6148</embedded-action>
+    <embedded-action>8542b69d-6b0c-44f9-809b-8b375a45be46</embedded-action>
+    <embedded-action>f36b1356-91f5-402a-9dd7-640688c76a66</embedded-action>
+    <embedded-action>2756a17c-fc31-4ae6-ab7e-8af9afced277</embedded-action>
+    <embedded-action>e4fa2877-6f51-4b20-a67d-ebab8985c8d7</embedded-action>
+    <embedded-action>cd46dda4-d06d-48fa-bad7-be7aa2d9c1b8</embedded-action>
+    <embedded-action>7d51bfad-96db-4e5b-b712-9fd36f4685b9</embedded-action>
+</browser-action>
+<browser-url-web-vital-action name=""
+    uid="81751e92-c1b5-4b74-9b40-2ef8c40c6148" url="http://127.0.0.1:1080/webtours/">
+    <embedded-action>5b787bae-e571-47d1-8370-21086cf74b87</embedded-action>
+    <embedded-action>becb31ff-8aa0-43c6-adb2-bd1b0d4d322c</embedded-action>
+    <embedded-action>f931ff00-495e-47a2-a1af-bf74d4a8b879</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="5b787bae-e571-47d1-8370-21086cf74b87"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="becb31ff-8aa0-43c6-adb2-bd1b0d4d322c"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="f931ff00-495e-47a2-a1af-bf74d4a8b879"/>
+<browser-url-web-vital-action name=""
+    uid="8542b69d-6b0c-44f9-809b-8b375a45be46" url="http://127.0.0.1:1080/webtours/header.html">
+    <embedded-action>2fc2927d-0197-4bfd-b5f4-1742205e0ed9</embedded-action>
+    <embedded-action>6bcf052c-0d65-4d60-a226-fb1ff47a97df</embedded-action>
+    <embedded-action>ccde3174-315b-45ea-aed0-2767b594cbf0</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="2fc2927d-0197-4bfd-b5f4-1742205e0ed9"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="6bcf052c-0d65-4d60-a226-fb1ff47a97df"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="ccde3174-315b-45ea-aed0-2767b594cbf0"/>
+<browser-url-web-vital-action name=""
+    uid="f36b1356-91f5-402a-9dd7-640688c76a66" url="http://127.0.0.1:1080/cgi-bin/welcome.pl">
+    <embedded-action>cd8fdf07-1b3b-4abb-a3ba-d432243c9d84</embedded-action>
+    <embedded-action>6d8c4df6-0d7c-4025-aaa1-4c7d0ade501c</embedded-action>
+    <embedded-action>e7d2472b-b0c3-4d05-93d7-35e3d2ec426a</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="cd8fdf07-1b3b-4abb-a3ba-d432243c9d84"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="6d8c4df6-0d7c-4025-aaa1-4c7d0ade501c"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="e7d2472b-b0c3-4d05-93d7-35e3d2ec426a"/>
+<browser-url-web-vital-action name=""
+    uid="2756a17c-fc31-4ae6-ab7e-8af9afced277" url="http://127.0.0.1:1080/WebTours/home.html">
+    <embedded-action>877238af-4749-44df-8fdc-58e87a2bb1fe</embedded-action>
+    <embedded-action>6da13a37-6270-4f2a-9367-8786e449cba7</embedded-action>
+    <embedded-action>8d986f00-ecfb-4009-88e6-74a5228872ba</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="877238af-4749-44df-8fdc-58e87a2bb1fe"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="6da13a37-6270-4f2a-9367-8786e449cba7"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="8d986f00-ecfb-4009-88e6-74a5228872ba"/>
+<browser-url-web-vital-action name=""
+    uid="e4fa2877-6f51-4b20-a67d-ebab8985c8d7" url="http://127.0.0.1:1080/cgi-bin/nav.pl">
+    <embedded-action>ebc52f11-4c90-478d-b104-4a49de9729e9</embedded-action>
+    <embedded-action>fae65f56-ab31-48c0-a63b-c61c9472b456</embedded-action>
+    <embedded-action>a59a79e6-3edd-46d2-9453-e1f7231fe845</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="ebc52f11-4c90-478d-b104-4a49de9729e9"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="fae65f56-ab31-48c0-a63b-c61c9472b456"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="a59a79e6-3edd-46d2-9453-e1f7231fe845"/>
+<browser-url-web-vital-action name=""
+    uid="cd46dda4-d06d-48fa-bad7-be7aa2d9c1b8" url="http://127.0.0.1:1080/cgi-bin/login.pl">
+    <embedded-action>32ed13e7-f709-4794-80ef-12d206204052</embedded-action>
+    <embedded-action>7ae1fd2d-f875-4cf3-b302-17d055117c46</embedded-action>
+    <embedded-action>b06dae89-3a89-4834-817a-91b7c641db25</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="32ed13e7-f709-4794-80ef-12d206204052"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="7ae1fd2d-f875-4cf3-b302-17d055117c46"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="b06dae89-3a89-4834-817a-91b7c641db25"/>
+<browser-url-web-vital-action name=""
+    uid="7d51bfad-96db-4e5b-b712-9fd36f4685b9" url="http://127.0.0.1:1080/cgi-bin/reservations.pl">
+    <embedded-action>1270a2a9-bc43-4bea-83d2-93f33f6d9e91</embedded-action>
+    <embedded-action>136bf25d-7536-4b3c-82e3-16531bbb6d36</embedded-action>
+    <embedded-action>e447c77c-9818-4e98-9307-6a50afe42bff</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="1270a2a9-bc43-4bea-83d2-93f33f6d9e91"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="136bf25d-7536-4b3c-82e3-16531bbb6d36"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="e447c77c-9818-4e98-9307-6a50afe42bff"/>

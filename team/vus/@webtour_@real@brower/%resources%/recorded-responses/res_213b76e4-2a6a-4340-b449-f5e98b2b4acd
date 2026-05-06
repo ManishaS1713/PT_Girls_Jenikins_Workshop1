@@ -1,0 +1,20 @@
+﻿accept-ranges: bytes
+connection: Keep-Alive
+content-length: 366
+content-type: text/html
+date: Wed, 06 May 2026 06:21:46 GMT
+etag: "180000000b79dd-16e-4ddb1559ac980"
+keep-alive: timeout=5, max=100
+last-modified: Mon, 27 May 2013 11:20:22 GMT
+server: Apache/2.2.21 (Win32)
+
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+

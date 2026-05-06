@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/login.pl_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/e2a402ef-3559-4a3d-8b81-3f48d7056f28.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e2a402ef-3559-4a3d-8b81-3f48d7056f28">
+    <embedded-action>4e35ba44-8c88-4837-a526-b0af3b846131</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cgi-bin/login.pl" path="/cgi-bin/login.pl"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/e2a402ef-3559-4a3d-8b81-3f48d7056f28.zip"
+    recordedResponseCode="200" responseSize="918" serverUid="localhost"
+    slaProfileEnabled="false" uid="4e35ba44-8c88-4837-a526-b0af3b846131" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1734d91a-cd68-47dc-b93f-6d7cbab1083f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1734d91a-cd68-47dc-b93f-6d7cbab1083f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="intro"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252246; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/login.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:24:21 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: 5s&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

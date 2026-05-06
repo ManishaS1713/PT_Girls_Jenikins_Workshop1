@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=01_WeTour
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.3.1
+project.is-open-test-settings-after-upload=false
+project.id=c00afb22-a6ec-4dce-adc7-319e10600e73
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/ManishaS1713/PT_Girls_Jenikins_Workshop1

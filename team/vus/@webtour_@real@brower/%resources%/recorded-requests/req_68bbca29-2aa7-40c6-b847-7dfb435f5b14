@@ -1,0 +1,4 @@
+﻿selector : input[name="returnDate"]
+selector : xpath=//*[@name="returnDate"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 2]/td[(count(preceding-sibling::*)+1) = 4]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

@@ -1,0 +1,29 @@
+<browser-action actionType="BrowserSelectOption" isHit="false"
+    name="Select option London" uid="6c221614-d831-4a09-b7d3-eb315875aa28">
+    <description>Select an option from the html select element identified by the selector.
+You can specify several options if the select element has the 'multiple' attribute, or you can specify none to clear the selection.
+
+Possible parameters are:&#xd;
+- selector (required): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple selector parameters to this action. The targeted element will match any of the selectors (OR operator).&#xd;
+- options[0].text (optional): Select the option with a matching text. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].value (optional): Select the option with a matching index. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].index (optional): Select the option with a matching value. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used. Maximum value is 200000.&#xd;
+- frameIndex (optional): Frame index.&#xd;
+- frameName (optional): Frame name.&#xd;
+- frameSelector (optional): Frame selector.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="selector" type="TEXT" value="select[name=&quot;arrive&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//*[@name=&quot;arrive&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 2]/td[(count(preceding-sibling::*)+1) = 2]/select[(count(preceding-sibling::*)+1) = 1]"/>
+    <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
+    <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_c6770e1b-a0fa-4674-859d-525f8c07a03c</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_6c221614-d831-4a09-b7d3-eb315875aa28</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_6c221614-d831-4a09-b7d3-eb315875aa28</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_6c221614-d831-4a09-b7d3-eb315875aa28</recordedResponseRawFileDescription>
+    <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_6c221614-d831-4a09-b7d3-eb315875aa28.0.jpg</screenshotFileDescription>
+</browser-action>

@@ -1,0 +1,30 @@
+<browser-action actionType="BrowserType" isHit="false"
+    name="Type on text input: creditCard" uid="b4ff43ec-a596-4418-ae9d-fe2efdf73f2a">
+    <description>Type some text inside an element.
+
+Possible parameters are:&#xd;
+- selector (required): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple selector parameters to this action. The targeted element will match any of the selectors (OR operator).&#xd;
+- text (optional): Text to type&#xd;
+- encryptedText (optional): Text to type on a password input.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used. Maximum value is 200000.&#xd;
+- delay (optional): Adds delay between each keydown/keyup sequence in ms. When this parameter is absent, the text will be inserted in the field as a whole, without triggering any keydown/keyup events.&#xd;
+- frameIndex (optional): Frame index.&#xd;
+- frameName (optional): Frame name.&#xd;
+- frameSelector (optional): Frame selector.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForDownload (optional): Enable waiting for a download if the parameter is set to true.  Default value is "false".&#xd;
+- waitForDownload.path (optional): The path where to save the the downloaded file. Can include the filename, 
+	i.e : /home/my-downloads/my-downloaded-file.txt &#xd;
+- waitForDownload.timeout (optional): If applicable, the download must start within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Maximum value is 200000. If the timeout is set to 0, the download will be waited indefinitely.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="selector" type="TEXT" value="input[name=&quot;creditCard&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//*[@name=&quot;creditCard&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 8]/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]"/>
+    <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
+    <custom-action-parameter name="text" type="TEXT" value="343254654775"/>
+    <custom-action-parameter name="delay" type="TEXT" value="100"/>
+    <screenshotFileDescription>team/vus/@webtour_@real@brower_1/%resources%/recorded-screenshots/sc_b4ff43ec-a596-4418-ae9d-fe2efdf73f2a.0.jpg</screenshotFileDescription>
+</browser-action>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="BookAnother" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="1edbc1c0-289a-41ae-b0a4-006bc563ad3f" weightsEnabled="false">
+    <weighted-embedded-action uid="96762209-6046-4d2d-9e2a-c4c775ecf67c"/>
+    <weighted-embedded-action uid="09748e52-eb6e-430e-a98b-048e3c7ac7cf"/>
+</basic-logical-action-container>

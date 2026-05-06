@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/login.pl"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/f72b89c1-9bec-4a09-bb33-411e3fbbc0f3.zip"
+    slaProfileEnabled="false" thinkTime="1131"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f72b89c1-9bec-4a09-bb33-411e3fbbc0f3">
+    <embedded-action>3eb9f5cd-284a-42f2-a385-c5363a371704</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4fff8651-cdbb-4b2d-b2c7-65866bcd9e23.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/login.pl" path="/cgi-bin/login.pl"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/03_@web@tour_@book@and@cancel/%resources%/recorded-artifacts/f72b89c1-9bec-4a09-bb33-411e3fbbc0f3.zip"
+    recordedResponseCode="200" responseSize="481" serverUid="localhost"
+    slaProfileEnabled="false" uid="3eb9f5cd-284a-42f2-a385-c5363a371704" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlclNlc3Npb249MTQzODg1Ljk5MTU3NTUzN0h0QVZWRGZwelFWenp6ekh0dHRBenBpVnRWZiZ1c2VybmFtZT1qb2pvJnBhc3N3b3JkPSR7QXV0b1Bhc3N3b3JkXzJ9JmxvZ2luLng9NTMmbG9naW4ueT00JkpTRm9ybVN1Ym1pdD1vZmY=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_fd54473b-bd8f-4a10-9b96-ca44b9e55942.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fd54473b-bd8f-4a10-9b96-ca44b9e55942.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="userSession"
+        recordRawValue="143885.991575537HtAVVDfpzQVzzzzHtttAzpiVtVf"
+        separator="=" value="${c_Session_2}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="jojo" separator="=" value="jojo" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_2}" separator="=" value="bean" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login.x"
+        recordRawValue="53" separator="=" value="53" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login.y"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="JSFormSubmit"
+        recordRawValue="off" separator="=" value="off" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1776272566"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/nav.pl?in=home"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 17:03:00 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: 5s&#xd;
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A; path=/&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

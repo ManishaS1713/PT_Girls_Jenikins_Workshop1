@@ -1,0 +1,353 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/itinerary.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/b44fe984-245a-40ba-b99e-dc4cb30a3bf8.zip"
+    slaProfileEnabled="false" thinkTime="36008"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b44fe984-245a-40ba-b99e-dc4cb30a3bf8">
+    <embedded-action>b03e408d-c088-4ef8-b8dc-9c97e596111f</embedded-action>
+    <embedded-action>2fb508b4-60a4-456d-99f0-e8a725311fb2</embedded-action>
+    <embedded-action>21342874-8f88-478d-99b0-f1428798769b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_fd42b8f8-6911-4452-a46e-8bc1187ca3aa.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" binaryType="FILE"
+    contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/itinerary.pl"
+    path="/cgi-bin/itinerary.pl" postCharset="iso-8859-1" postType="4"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/b44fe984-245a-40ba-b99e-dc4cb30a3bf8.zip"
+    recordedResponseCode="200"
+    refererUid="23b77477-8dad-4878-8169-9a5345b3b172" responseSize="887"
+    serverUid="localhost" slaProfileEnabled="false"
+    uid="b03e408d-c088-4ef8-b8dc-9c97e596111f" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[JHtmaW5hbFBhcmFtc30=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_f1c350c2-459a-400f-83b1-42ef3e66fe8d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f1c350c2-459a-400f-83b1-42ef3e66fe8d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252246; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/itinerary.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:25:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 11:25:36 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+    <textPostContent><![CDATA[${finalParams}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/itinerary.pl"
+    path="/cgi-bin/itinerary.pl" postCharset="iso-8859-1" postType="2"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/b44fe984-245a-40ba-b99e-dc4cb30a3bf8.zip"
+    recordedResponseCode="200"
+    refererUid="23b77477-8dad-4878-8169-9a5345b3b172" responseSize="887"
+    serverUid="localhost" slaProfileEnabled="false"
+    uid="2fb508b4-60a4-456d-99f0-e8a725311fb2" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZmxpZ2h0SUQ9MzIzNzQ5Mjg3LTgyOC1KQiZmbGlnaHRJRD00MTE1NjcyOS0xNTkxLUpCJmZsaWdodElEPTg2NzAtMjMtT1AmZmxpZ2h0SUQ9ODY3MC0zMC1PUCZmbGlnaHRJRD04NjcwLTM4LU9QJmZsaWdodElEPTg2NzM5MjczLTQ2NDQtT1AmcmVtb3ZlQWxsRmxpZ2h0cy54PTQ5JnJlbW92ZUFsbEZsaWdodHMueT0xMCYuY2dpZmllbGRzPTYmLmNnaWZpZWxkcz00Ji5jZ2lmaWVsZHM9MSYuY2dpZmllbGRzPTMmLmNnaWZpZWxkcz0yJi5jZ2lmaWVsZHM9NQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_2fb508b4-60a4-456d-99f0-e8a725311fb2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2fb508b4-60a4-456d-99f0-e8a725311fb2.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252246; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/itinerary.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:25:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 11:25:36 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/itinerary.pl"
+    path="/cgi-bin/itinerary.pl" postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/02_@web@tour_@cancel@flight/%resources%/recorded-artifacts/b44fe984-245a-40ba-b99e-dc4cb30a3bf8.zip"
+    recordedResponseCode="200"
+    refererUid="23b77477-8dad-4878-8169-9a5345b3b172" responseSize="887"
+    serverUid="localhost" slaProfileEnabled="false"
+    uid="21342874-8f88-478d-99b0-f1428798769b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZmxpZ2h0SUQ9MzIzNzQ5Mjg3LTgyOC1KQiZmbGlnaHRJRD00MTE1NjcyOS0xNTkxLUpCJmZsaWdodElEPTg2NzAtMjMtT1AmZmxpZ2h0SUQ9ODY3MC0zMC1PUCZmbGlnaHRJRD04NjcwLTM4LU9QJmZsaWdodElEPTg2NzM5MjczLTQ2NDQtT1AmcmVtb3ZlQWxsRmxpZ2h0cy54PTQ5JnJlbW92ZUFsbEZsaWdodHMueT0xMCYuY2dpZmllbGRzPTYmLmNnaWZpZWxkcz00Ji5jZ2lmaWVsZHM9MSYuY2dpZmllbGRzPTMmLmNnaWZpZWxkcz0yJi5jZ2lmaWVsZHM9NQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_21342874-8f88-478d-99b0-f1428798769b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21342874-8f88-478d-99b0-f1428798769b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="323749287-828-JB" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="a10545df-227a-4718-8621-4932ea7ee821" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="41156729-1591-JB" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="2"
+            matchNumberAdv="2" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="b66d40c0-632c-4685-864b-0f80cb88bcba" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="8670-23-OP" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="3"
+            matchNumberAdv="3" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="e9f9de2a-db6f-4700-9243-39722063b875" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="8670-30-OP" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="4"
+            matchNumberAdv="4" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="c04266a3-7d7d-4e26-8050-911a09a93d00" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="8670-38-OP" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="5"
+            matchNumberAdv="5" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="df530bc5-3f26-4c8c-afcb-463f12be58ce" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="flightID"
+        recordRawValue="86739273-4644-OP" separator="="
+        value="${c_FlightId_json}" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="6"
+            matchNumberAdv="6" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']flightID[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="9e66f66f-66b4-4c8c-918c-7a55101790c0" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeAllFlights.x" recordRawValue="49" separator="="
+        value="49" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="removeAllFlights.y" recordRawValue="10" separator="="
+        value="10" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="6" separator="=" value="6" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="a011be42-37dd-4d12-92ee-b7f8811ca880" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="2"
+            matchNumberAdv="2" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="6dbea6c6-b0da-42e8-bfcd-fdb34b5e3bfd" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="3"
+            matchNumberAdv="3" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="78dfbea4-a94a-44ff-9fcb-111e34cef556" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="4"
+            matchNumberAdv="4" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="0c3e9832-2e8a-4a97-9dfb-ff33bc7975fc" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="5"
+            matchNumberAdv="5" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="c6a8369e-9b14-4c29-ae7c-e124503fb1d0" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="5" separator="=" value="5" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="6"
+            matchNumberAdv="6" matchNumberSimple="1" name=""
+            refererUid="23b77477-8dad-4878-8169-9a5345b3b172"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="d498c703-205e-411a-a062-58cb9d9f8fa9" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1776252246; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="localhost:1080"/>
+    <header name="Origin" value="http://localhost:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://localhost:1080/cgi-bin/itinerary.pl"/>
+    <header name="Sec-Fetch-Dest" value="frame"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 15 Apr 2026 11:25:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Tue, 14 Apr 2026 11:25:36 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>

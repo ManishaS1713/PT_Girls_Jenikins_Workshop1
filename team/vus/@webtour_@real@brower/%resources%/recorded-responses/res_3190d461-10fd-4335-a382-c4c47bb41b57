@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [internal:role=button[name="Submit"i], xpath=//*[@type="image"], xpath=//*[@name="reserveFlights"], xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 1]/td[(count(preceding-sibling::*)+1) = 1]/input[(count(preceding-sibling::*)+1) = 1]]

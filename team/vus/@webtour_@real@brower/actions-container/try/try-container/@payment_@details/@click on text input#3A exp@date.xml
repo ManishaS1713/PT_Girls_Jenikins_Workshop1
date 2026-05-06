@@ -1,0 +1,34 @@
+<browser-action actionType="BrowserClick" isHit="false"
+    name="Click on text input: expDate" uid="36600c1c-67ac-45f4-9ec3-38c55ea30852">
+    <description>Click a selector.
+
+Possible parameters are:&#xd;
+- selector (optional): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple selector parameters to this action. The targeted element will match any of the selectors (OR operator).&#xd;
+- coordinates (optional): Coordinates of the click, relative to the selector if specified, absolute otherwise. If no coordinates are specified with selector, the click will be performed on the middle of the element. Example: 100.0;200.0&#xd;
+- force (optional): true or false. Forces the click, even if the target element is obscured by other elements. Default value is "false".&#xd;
+- mouseButton (optional): LEFT, MIDDLE, RIGHT, BACK or FORWARD. Default to LEFT.&#xd;
+- doubleClick (optional): true or false. Performs a double click. Default value is "false".&#xd;
+- modifiers (optional): Modifier keys to press separated by "+" like Control+Shift.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used. Maximum value is 200000.&#xd;
+- frameIndex (optional): Frame index.&#xd;
+- frameName (optional): Frame name.&#xd;
+- frameSelector (optional): Frame selector.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForDownload (optional): Enable waiting for a download if the parameter is set to true.  Default value is "false".&#xd;
+- waitForDownload.path (optional): The path where to save the the downloaded file. Can include the filename, 
+	i.e : /home/my-downloads/my-downloaded-file.txt &#xd;
+- waitForDownload.timeout (optional): If applicable, the download must start within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Maximum value is 200000. If the timeout is set to 0, the download will be waited indefinitely.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="selector" type="TEXT" value="input[name=&quot;expDate&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//*[@name=&quot;expDate&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="xpath=//tr/td[(count(preceding-sibling::*)+1) = 4]/input[(count(preceding-sibling::*)+1) = 1]"/>
+    <custom-action-parameter name="frameIndex" type="TEXT" value="4"/>
+    <responsePageFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_ca437ecd-515a-480a-96f9-93c2dc66bc4f</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_36600c1c-67ac-45f4-9ec3-38c55ea30852</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-requests/req_raw_36600c1c-67ac-45f4-9ec3-38c55ea30852</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-responses/res_raw_36600c1c-67ac-45f4-9ec3-38c55ea30852</recordedResponseRawFileDescription>
+    <screenshotFileDescription>team/vus/@webtour_@real@brower/%resources%/recorded-screenshots/sc_36600c1c-67ac-45f4-9ec3-38c55ea30852.0.jpg</screenshotFileDescription>
+</browser-action>

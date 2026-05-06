@@ -1,0 +1,5 @@
+﻿selector : internal:role=button[name="Submit"i]
+selector : xpath=//*[@type="image"]
+selector : xpath=//*[@name="Book Another"]
+selector : xpath=//form/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

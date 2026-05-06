@@ -1,0 +1,4 @@
+﻿selector : select[name="arrive"]
+selector : xpath=//*[@name="arrive"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 2]/td[(count(preceding-sibling::*)+1) = 2]/select[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

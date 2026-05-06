@@ -1,0 +1,4 @@
+﻿selector : form[name="DestForm"]
+selector : xpath=//*[@name="DestForm"]
+selector : xpath=//blockquote/form[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="paymentDetails" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0214a670-1be8-475f-8a2c-b242d17db31c" weightsEnabled="false">
+    <weighted-embedded-action uid="750528d8-bd68-4580-9a0c-670079794220"/>
+    <weighted-embedded-action uid="2b8fd96c-3f50-49c3-b204-f0057bc2e6ec"/>
+    <weighted-embedded-action uid="1375cfc9-3a61-42f0-b13b-e8cbf6482a27"/>
+    <weighted-embedded-action uid="b4805163-017a-4130-961a-8b36b957b097"/>
+</basic-logical-action-container>

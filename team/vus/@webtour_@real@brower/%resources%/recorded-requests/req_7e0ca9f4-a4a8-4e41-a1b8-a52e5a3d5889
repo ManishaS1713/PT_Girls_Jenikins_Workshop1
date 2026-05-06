@@ -1,0 +1,5 @@
+﻿selector : input[name="username"]
+selector : xpath=//*[@type="text"]
+selector : xpath=//*[@name="username"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 4]/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 3

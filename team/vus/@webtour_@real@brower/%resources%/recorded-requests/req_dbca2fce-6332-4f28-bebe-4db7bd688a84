@@ -1,0 +1,6 @@
+﻿selector : input[name="address1"]
+selector : xpath=//*[@name="address1"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 3]/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4
+text : JojokaGhar
+delay : 600

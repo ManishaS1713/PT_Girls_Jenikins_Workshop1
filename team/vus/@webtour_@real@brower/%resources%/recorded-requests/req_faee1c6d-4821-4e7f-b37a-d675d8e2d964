@@ -1,0 +1,5 @@
+﻿selector : internal:role=button[name="Submit"i]
+selector : xpath=//*[@type="image"]
+selector : xpath=//*[@name="reserveFlights"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 1]/td[(count(preceding-sibling::*)+1) = 1]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

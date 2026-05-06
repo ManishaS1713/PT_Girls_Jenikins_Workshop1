@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="FindFlight_Contine" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="dc8739e1-c73c-4117-91da-8546c4b43a39" weightsEnabled="false">
+    <weighted-embedded-action uid="e1055349-9e03-420c-8bd4-f0975d93f79b"/>
+    <weighted-embedded-action uid="f9207f56-d482-4e6d-88d0-30db911a848c"/>
+</basic-logical-action-container>

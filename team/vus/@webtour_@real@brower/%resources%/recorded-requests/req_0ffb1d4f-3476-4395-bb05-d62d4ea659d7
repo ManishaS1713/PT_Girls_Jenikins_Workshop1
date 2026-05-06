@@ -1,0 +1,6 @@
+﻿selector : input[name="expDate"]
+selector : xpath=//*[@name="expDate"]
+selector : xpath=//tr/td[(count(preceding-sibling::*)+1) = 4]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4
+text : 2323
+delay : 100

@@ -1,0 +1,4 @@
+﻿selector : input[name="creditCard"]
+selector : xpath=//*[@name="creditCard"]
+selector : xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 8]/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 4

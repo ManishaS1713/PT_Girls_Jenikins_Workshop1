@@ -1,0 +1,3 @@
+﻿selector : internal:role=link[name="SignOff Button"i]
+selector : xpath=//center/a[(count(preceding-sibling::*)+1) = 7]/img[(count(preceding-sibling::*)+1) = 1]
+frameIndex : 3

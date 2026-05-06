@@ -1,0 +1,1 @@
+﻿Clicked at the middle of element with selector [input[name="username"], xpath=//*[@type="text"], xpath=//*[@name="username"], xpath=//tbody/tr[(count(preceding-sibling::*)+1) = 4]/td[(count(preceding-sibling::*)+1) = 2]/input[(count(preceding-sibling::*)+1) = 1]]

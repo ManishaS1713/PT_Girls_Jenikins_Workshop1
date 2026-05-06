@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Cancel_SelectedFlight" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7381bad5-6b8b-4151-8759-a86ba9bf66a5" weightsEnabled="false">
+    <weighted-embedded-action uid="6833c092-b5b1-4e92-9a29-23f776f9b056"/>
+    <weighted-embedded-action uid="fb80cd75-5d61-47ed-a7a8-36f61f5b1084"/>
+</basic-logical-action-container>

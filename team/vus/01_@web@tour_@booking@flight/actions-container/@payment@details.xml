@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="PaymentDetails" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="7ff96238-fd60-457a-b18c-ecf8becf5425" weightsEnabled="false">
+    <weighted-embedded-action uid="792ae13d-4aa7-4d07-97bf-1048b48493a0"/>
+</basic-logical-action-container>
